@@ -7,7 +7,7 @@ Prueba técnica para le empresa DentOS para el cargo de Desarrollador Front End.
 Desarrollado por Santiago Alvarez Eraso
 ## Aplicación en producción
 
-Ingresar a la siguiente URL: [http://localhost:3000](http://localhost:3000)
+Ingresar a la siguiente URL: [https://rick-and-morty-challenge-33qs9i8ug-santiagoalvarez1991.vercel.app](https://rick-and-morty-challenge-33qs9i8ug-santiagoalvarez1991.vercel.app)
 ## Cómo ejecutarlo localmente
 
 Verificar la versión de Node, debe ser igual o superior a `18.15.0`. Se puede instalar con `nvm`:
