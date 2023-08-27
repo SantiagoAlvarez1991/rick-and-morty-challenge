@@ -14,6 +14,7 @@ export const FIND_CHARACTER = gql`
           name
           image
           status
+          species
           origin {
             name
           }          

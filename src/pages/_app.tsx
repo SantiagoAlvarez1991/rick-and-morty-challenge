@@ -1,3 +1,4 @@
+import '../styles/globals.css'
 import { ContextProvider } from '@/context/context';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 import type { AppProps } from 'next/app';

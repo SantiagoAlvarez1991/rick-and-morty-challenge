@@ -7,13 +7,8 @@ interface CharacterList {
 }
 
 const CharacterList: FC<CharacterList> = ({data}) => {
-  return (
-    <div style={
-        {
-          display: 'flex',
-          flexWrap: 'wrap'
-        }
-      }>
+  return (    
+    <div className='w-full grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4'>
         {data?.map(character => (
             <CharacterCard
                 key={character.id}
@@ -22,6 +17,7 @@ const CharacterList: FC<CharacterList> = ({data}) => {
                 name={character.name}
                 status={character.status}
                 origin={character.origin.name}
+                species={character.species}
              />
           ))}      
     </div>
